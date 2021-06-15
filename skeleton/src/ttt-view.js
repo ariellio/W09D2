@@ -3,6 +3,7 @@ class View {
     this.game = game;
     this.el = el;
     this.setupBoard();
+    this.bindEvents();
   }
 
   setupBoard() {
@@ -28,12 +29,12 @@ class View {
   }
   
   bindEvents() {
-    
+    document.querySelector(".ttt").addEventListener("click", e => this.handleClick(e))
   }
 
   handleClick(e) {
     const item = e.target;
-    item.classList.toggle("unclicked");
+    item.classList.toggle("clicked");
   }
 
   makeMove(square) {}

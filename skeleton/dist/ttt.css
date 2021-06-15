@@ -23,3 +23,11 @@ li{
 li:hover{
   background-color: yellow;
 }
+
+.clicked{
+  background-color: white;
+}
+
+.clicked:hover{
+  background-color: white;
+}
