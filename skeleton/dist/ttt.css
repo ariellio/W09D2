@@ -1,0 +1,25 @@
+html, body, figure, figcaption, ul, li, h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  text-align: inherit;
+}
+
+ul{
+  list-style: none;
+  display: flex; 
+  width: 300px; 
+  flex-wrap: wrap
+}
+
+li{
+  border: 1px black solid;
+  width: 90px;
+  height: 90px;
+  background-color: gray;
+}
+
+li:hover{
+  background-color: yellow;
+}
